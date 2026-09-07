@@ -1,0 +1,17 @@
+{
+  "name": "stellarcab",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Interplanetary Starship cab: residual guidance over a 2025–2050 solar-system gym.",
+  "type": "module",
+  "scripts": {
+    "check": "jiti src/check.ts",
+    "ride": "jiti src/ride/cli.ts",
+    "train": "jiti src/trainer/run.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "jiti": "^2.4.2",
+    "typescript": "^5.6.3"
+  }
+}
